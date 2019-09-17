@@ -1,2 +1,2 @@
-# practica-less
-Estructura y configuraciones básicas usando el preprocesador Less
+# Preprocesador less
+Estructura y configuraciones básicas.
