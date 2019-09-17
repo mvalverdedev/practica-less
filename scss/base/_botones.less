@@ -1,0 +1,29 @@
+.btn {
+  display: inline-block;
+  line-height: 2.2;
+  color: @buttontxt;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  // INI ANIDACIONES
+  &:hover {
+    text-decoration: none;
+    color: @buttontxt;
+  }
+
+  &--alert {
+    background-color: @color-alert;
+  }
+
+  a {
+    color: blue;
+    span {
+      color: white;
+    }
+  }
+  // FIN ANIDACIONES
+}
